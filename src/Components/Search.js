@@ -69,9 +69,9 @@ export default class Search extends Component {
                 <input onChange={this.handleChange} name="userLocation" type="text" className="form-control" placeholder="Enter a location" />
                 <button onClick={this.handleClick} name="search-btn" className="btn btn-search" type="button" >Get time.</button>
               <div className="output-container mt-5">
-                <Clock ticking={true} format={'hh:mm:ss a'} timezone={this.state.timezone} />
+                <Clock ticking={true} format={'hh:mm:ss a'} timezone={this.state.timezone} />             
                 {/* {/* {this.state.localTime && this.state.localTime} */}
-                {alert}
+                {/* {alert} */}
               </div>
             </div>
           </div>
